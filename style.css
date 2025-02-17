@@ -1,0 +1,140 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: "Gabarito", serif;
+}.navbar {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    align-items: center;
+}
+
+.navbar_s1_title {
+    color: #A435F0;
+    
+    font-size: 20px;
+    
+  
+    
+    
+
+}
+.navbar_s2{
+         padding: 10px; 
+         border: solid black 1px;
+         border-radius: 30px;
+         width: 60%;
+         display: flex;
+         gap : 10px;  
+         align-items: center;  
+
+}
+.navbar_s2 input{
+    border: none;
+    font-size: 15px;
+    width: 100%;
+}
+.navbar_s2 i{
+   margin-top: 3px;
+}
+.navbar_s2 input:focus{
+    outline: none;
+
+}
+
+
+
+.navbar_s3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-items: center;
+}
+.categories{
+    border-bottom: 1px solid black;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.categories p {
+    background-color:#A435F0 ;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.image img{
+    width: 100%;
+   
+}
+.recommended{
+     margin: 10px;
+     padding: 10px;
+}
+.recommended_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.img-section{
+    width: 300px;
+}
+
+.img-section img{
+    width:100%;
+    height:50%;
+   
+    
+   
+    margin-top: 10px;
+    
+}
+.topics{
+    padding: 10px;
+}
+.topics_container{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.topics_container p{
+    border: solid grey 1px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.popular{
+    padding: 10px;
+}
+.popular__container {
+   display: flex;
+   margin: 10px;
+   margin-top: 10px;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+}
+.footer{
+    background-color: black;
+    color: white;
+    gap: 10px;
+}
+.footer_one{
+    display: flex;
+}
+.footer_one p{
+    margin: 20px;
+}
+.footer_two{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
