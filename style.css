@@ -52,6 +52,7 @@
 .mylearning{
     cursor: pointer;
     position: relative;
+    
 }
 .mylearning_popup{
     position: absolute;
@@ -62,8 +63,9 @@
     top:150%;
     right: 0px;
     display:none;
-
+    
 }
+ 
 .mylearning:hover .mylearning_popup{
     display: block;
 }
@@ -83,6 +85,22 @@
     position: absolute;
     top: 300px;
     left: 200px;
+    animation-name: zoom;
+    animation-duration: 2s;
+    opacity: 0px;
+    animation-fill-mode: forwards;
+
+}
+@keyframes zoom {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 .categories{
     border-bottom: 1px solid black;
@@ -95,7 +113,17 @@
     color: white;
     border-radius: 20px;
     padding: 10px;
+    border: solid 1px #A435F0 ;
+    
 
+
+}
+.categories p:hover{
+    transition: 1s;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border: solid 1px #A435F0 ;
 }
 .image img{
     width: 100%;
